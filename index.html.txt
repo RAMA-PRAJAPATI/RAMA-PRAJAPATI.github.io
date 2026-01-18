@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rama's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header / About Me -->
+    <header>
+        <h1>Hi, I'm Rama</h1>
+        <p>Data Science & Machine Learning Enthusiast</p>
+        <p>Skills: Python, SQL, Machine Learning, Data Analytics, AI</p>
+    </header>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>My Projects</h2>
+        <ul>
+            <li>
+                <strong>Real Estate Price Prediction</strong> - 
+                <a href="#">View Project</a> | 
+                <a href="https://github.com/username/real-estate-prediction" target="_blank">GitHub</a>
+            </li>
+            <li>
+                <strong>Movie Recommendation System</strong> - 
+                <a href="#">View Project</a> | 
+                <a href="https://github.com/username/movie-recommendation" target="_blank">GitHub</a>
+            </li>
+        </ul>
+    </section>
+
+    <!-- Resume Section -->
+    <section id="resume">
+        <h2>Resume</h2>
+        <p>Download my resume: <a href="Rama_Resume.pdf" download>Click Here</a></p>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Email: <a href="mailto:rama@example.com">rama@example.com</a></p>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 Rama</p>
+    </footer>
+</body>
+</html>
